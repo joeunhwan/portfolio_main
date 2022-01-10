@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/************************/
+.section1 {
+    background-color: #F1F1F1;
+    background:url(../img/main01.png);
+    background-size: cover;
+    background-position: center;
+}
+.section2 {
+    background-color: #F1F1F1; 
+}
+
+.section3 {
+    background-color:  #F1F1F1;
+}
+
+.section4 {
+    background-color:  #F1F1F1;
+}
+
+.section5 {
+    background-color:  #F1F1F1;
+}
+section div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    /*text-align: center;*/
+    position: relative;
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+}
+
+/*섹션01*/
+.page01{
+    max-width: 75vw;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.page01 .main_title:nth-child(1){
+    color: #fff;
+    text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+}
+.page01 .main_title{
+    /*animation-delay: 1.5s;*/
+    margin-bottom: 1%;
+}
+.page01 .sub_text{
+    font-size: 1.5rem;
+    text-align: right;
+    font-family: 'GmarketSansLight';
+    /*animation-delay: 2.5s;*/
+    margin-top: 7px;
+}
+.page01 .text_box02{
+    margin-top:4%;
+}
+/*섹션01*/
+
+/*섹션02*/
+
+.page02{
+    max-width: 75vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+.page02_cover{
+    width: 100%;
+    height: 60%;
+    padding: 20vh 0;
+}
+.page02 .page02_cover .pg02_title{
+    font-size: 4rem;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+.box_cover{
+    display: flex;
+    justify-content: space-between;
+}
+.page02 .introduction{
+    width: 45%;
+}
+.page02 .introduction .pg02_subtitle{
+    margin: 7% 0 3% 0;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'GmarketSansLight';
+    position: relative;
+}
+.page02 .introduction .pg02_subtitle span{
+    width: 6px;
+    height: 100%;
+    background-color: #5f9ea0;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+.page02 .introduction .pg02_subtitle strong{
+    padding-left: 3%;
+}
+.page02 .introduction .introduction_line {
+    margin: 6% 0;
+}
+.page02 .introduction .introduction_line i{
+    font-size: 1.6rem;
+}
+.page02 .introduction .introduction_line em{
+    font-size: 1.6rem;
+    padding-left: 2%;
+}
+.page02 .introduction .introduction_line p{
+    margin: 3% 0;
+}
+
+
+.page02 .introduction_box{
+    width: 45%;
+}
+.page02 .introduction_box .pg02_subtitle{
+    margin: 7% 0 3% 0;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'GmarketSansLight';
+    position: relative;
+}
+.page02 .introduction_box .pg02_subtitle span{
+    width: 6px;
+    height: 100%;
+    background-color: #5f9ea0;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+.page02 .introduction_box .pg02_subtitle strong{
+    padding-left: 3%;
+}
+
+/*섹션02*/
+
+/*섹션03*/
+
+.page03{
+    max-width: 75vw;
+    margin: 0 auto;
+    height: 100vh;
+    display: table;
+}
+.page03_cover{
+    /*width: 100%;
+    height: 60%;
+    padding: 20vh 0;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+.page03_cover .portfolio ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.page03_cover .portfolio ul li{
+    width:270px;
+    height:270px;
+    background-color: orange;
+    border-radius: 15px;
+}
+.page03_cover .portfolio ul li:hover{
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tab { 
+    overflow:hidden; 
+    width: 15vw; 
+    margin: 0 auto; 
+    display: flex;
+}
+.tab li { 
+    /*float:left; 
+    width:33.3%;*/  
+    text-align:center; 
+    box-sizing:border-box; 
+    flex: 1;
+}
+.tab li {   
+    padding:15px;
+    margin: 10px; 
+    cursor:pointer; 
+    font-size: 1.4rem; 
+    font-family: 'GmarketSansLight'; 
+    font-weight: bold;
+}
+.tab li.on { 
+    background-color: #5f9ea0;
+    color: #fff;
+    border-radius: 15px;
+}
+.tab_con { 
+    /*clear:both;*/ 
+    width: 100%;
+    margin: 0 auto; 
+    margin-top:3%; 
+}
+.tab_con div { 
+    display:none; 
+    height:auto; 
+    text-align:center; 
+}
+.tab_con .portfolio ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.tab_con .portfolio ul li a .img_box{
+    display: block;
+    border-right: 15px;
+}
+.tab_con .portfolio ul li a .img_box img{
+    border-radius: 15px;
+}
+.tab_con .pt2 ul li a .img_box img{
+    width: 270px;
+    height: 270px;
+    z-index: -1;
+}
+.tab_con .pt2 ul li:nth-child(1){
+    background: url(../img/bnr_1.png)no-repeat;
+    background-size: cover;
+}
+.tab_con .pt2 ul li:nth-child(2){
+    background: url(../img/bnr_2.png)no-repeat;
+    background-size: cover;
+}
+.tab_con .pt2 ul li a .img_box img:nth-child(1){
+    background: url(../img/bnr_1.png)no-repeat;
+    background-size: contain;
+}
+.tab_con .pt2 ul li a .img_box img:nth-child(2){
+    background: url(../img/bnr_2.png)no-repeat;
+    background-size: contain;
+}
+
+
+/*섹션03*/
+
+/*섹션04*/
+
+.page04{
+    max-width: 75vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+.page04_cover{
+    width: 100%;
+    height: 60%;
+    padding: 20vh 0;
+}
+.page04 .page04_cover .pg04_title{
+    font-size: 4rem;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+.page04 .page04_cover .pg04_title2{
+    font-size: 4rem;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.page04 .contact{
+    width: 100%;
+    height: 100%;
+}
+.page04 .contact dt{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'GmarketSansLight';
+    margin: 2% 0;
+    position: relative;
+}
+.page04 .contact dt span{
+    width:6px;
+    height: 100%;
+    background-color: #5f9ea0;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+.page04 .contact dt strong{
+    padding-left: 3%;
+}
+.page04 .introduce dl{
+    margin: 4% 0 2% 0;
+}
+.page04 .introduce dt{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'GmarketSansLight';
+    margin: 1% 0;
+    position: relative;
+}
+.page04 .introduce dt span{
+    width:6px;
+    height: 100%;
+    background-color: #5f9ea0;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+.page04 .introduce dt strong{
+    padding-left: 15px;
+}
+.page04 .introduce dl dd{
+    margin:13px 0;
+}
+
+/*섹션04*/
+
+/*폰트*/
+
+.main_title{
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    font-size: 4rem;
+}
+.animate__fadeInRight{
+    /*animation-delay: 1.5s;*/
+    text-align: right;
+}
+/*폰트*/
+
+/*프로그레스바*/
+.bar_line{
+    width: 100%;
+    margin: 2% 0;
+}
+.bar_line em{
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+progress {
+    -webkit-appearance: none;
+    width: 100%;
+    height:3vh;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: #ced4da;
+  }
+  
+  ::-webkit-progress-value {
+    background-color: orange;
+  }
+
+/*프로그레스바*/

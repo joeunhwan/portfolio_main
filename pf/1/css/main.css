@@ -1,0 +1,223 @@
+span.color{color: #47ceff;}
+span.bold{font-weight: bold;}
+
+#header .main_banner{
+    width: 100%;
+    height: 900px; 
+    display: table;
+    text-align: center;
+    background-image: url("../img/main/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    
+}
+#header .main_banner .main_txtline{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+#header .main_banner .main_txtline h1{
+    font-size: 60px; 
+    line-height: 70px;
+}
+#header .main_banner .main_txtline p{
+    font-size: 16px; 
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+
+#container h2{font-size: 36px; margin-bottom: 25px;}
+#container .paragraph{
+    font-size: 15px; 
+    line-height: 26px;
+    color: #636363;
+}
+#container .btn_detail{
+    font-size: 17px; 
+    line-height: 26px;
+    color: #363636;
+    padding: 10px 16px;
+    border-radius: 15px;
+    transition: 0.5s all;
+}
+#container .btn_detail:hover{
+    color : #efefef;
+    background-color: #47ceff;
+}
+#container .introduce{
+    width: 1200px; margin: 0 auto;
+    padding: 50px 0;
+}
+#container .introduce .introduce_title{float: left;}
+
+#container .introduce .cont_right{
+    float: left; 
+    margin-left: 160px;
+}
+#container .introduce .cont_right .introduce_text2{margin: 40px 0;}
+
+
+#container .ourwork{
+    text-align: center; 
+    padding-top: 80px;
+    background-color: #f2f2f2;
+}
+#container .ourwork p{margin-bottom: 30px;}
+#container .ourwork ul{margin-top: 60px;}
+#container .ourwork ul li{width: 25%; position: relative;}
+#container .ourwork ul li img{width: 100%;}
+#container .ourwork ul li a{
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    padding-top: 48%;
+    font-size: 17px; color: #efefef;
+    font-weight: bold;
+    transition: all 0.5s;
+    position: absolute; top: 0; left: 0;
+    background-color: #47ceff;
+    opacity: 0; filter:Alpha(opacity=0);
+}
+#container .ourwork ul li:hover a{
+    opacity: 0.8; 
+    filter:Alpha(opacity=80);
+}
+
+
+#container .expertise{
+    text-align: center; 
+    padding: 100px 0;
+}
+#container .expertise ul{margin-top: 80px;}
+#container .expertise ul li{width: 25%;}
+#container .expertise ul li h3{
+    font-size: 22px; 
+    color: #23c3ff;
+    font-weight: normal; 
+    margin: 30px 0;
+}
+
+
+#container .cont_notebook_bg{
+    height: 430px; text-indent: -9999px;
+    background-image: url("../img/main/notebook_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container .publisher_list li{
+    width: 33.333%; 
+    height: 250px;
+    text-align: center;
+}
+#container .publisher_list li a{
+    display: block; 
+    height: 100%;
+    color: #777; 
+    border: 1px solid #efefef;
+    padding-top: 80px;
+}
+#container .publisher_list li a h4{font-size: 30px; line-height: 48px;}
+#container .publisher_list li a p{font-size: 15px; line-height: 24px;}
+#container .publisher_list li:hover a{background-color: #34c4fa; color: #fff; border: 0}
+
+
+#container .contact{
+    text-align: center; color: #fff;
+    background-image: url("../img/main/contact_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0; 
+}
+
+#container .contact .contact_text1{
+    font-size: 15px; 
+    margin: 20px 0 50px 0;
+}
+#container .contact .btn_detail{color: #fff; font-weight: bold;}
+
+
+
+@media screen and (max-width: 1200px){
+    #header .main_banner{height: 780px;}
+    #header .main_banner h1{font-size: 45px;}
+    
+    #container h2{font-size: 30px;}
+    #container .introduce{width: 90%;}
+    #container .introduce .cont_right{
+        width: 60%; margin-left: 5%;
+    }
+    
+    #container .ourwork ul li{width: 50%;}
+    
+    #container .expertise{padding: 0; padding-top: 100px;}
+    #container .expertise ul{
+        width: 90%; margin: 0 auto;
+        text-align: left; margin-top: 50px;
+    }
+    #container .expertise ul li{
+        width: 50%; height: 100px; margin-bottom: 50px;
+    }
+    #container .expertise ul li img{width: 12%; float: left; margin-right: 8%;}
+    #container .expertise ul li .txt{float: left; width: 75%;}
+    #container .expertise ul li .txt h3{margin: 0; font-size: 140%;}
+    #container .expertise ul li .txt p{
+        font-size: 11px; line-height: 20px;
+        margin-top: 15px;
+    }
+    
+    #container .cont_notebook_bg{height: 370px; }
+    
+    #container .publisher_list li a h4{font-size: 25px;}
+    #container .publisher_list li a p{font-size: 13px;}
+    
+    #container .contact{padding: 100px 0;}
+    #container .contact .contact_text1{font-size: 13px;}
+}
+
+
+
+@media screen and (max-width: 640px){
+    #header .main_banner{height: 450px; padding-top: 150px;}
+    #header .main_banner h1{font-size: 30px; line-height: 35px;}
+    
+    #container .introduce{width: 87%; text-align: center;}
+    #container .introduce .introduce_title{float: none; margin-bottom: 40px;}
+    #container .introduce .cont_right{width: 100%; margin-left:0%;}
+    #container .introduce .cont_right p{font-size: 85%;}
+    
+    
+    #container .ourwork .ourwork_title{margin-bottom: 40px;}
+    #container .ourwork p{font-size: 13px;}
+    #container .ourwork ul li{width: 100%;}
+    
+    #container .expertise{padding: 50px 0;}
+    #container .expertise ul{
+        width: 95%; 
+        text-align: center; margin-top: 50px;
+    }
+    #container .expertise ul li{
+        width: 50%; height: 50%;
+        margin-bottom: 0; padding: 15px;
+    }
+    #container .expertise ul li img{float: none; width: 20%; margin-right: 0; margin-bottom: 20px;}
+    #container .expertise ul li .txt{float: none; width: 100%;}
+
+    #container .expertise ul li .txt p{
+        font-size: 13px; line-height: 20px;
+        margin-top: 15px;
+    }
+    
+    #container .cont_notebook_bg{height: 280px;}
+    
+    #container .publisher_list li{width: 50%; height: 200px;}
+    #container .publisher_list li a{padding-top: 50px;}
+    
+    #container .contact{padding: 50px 0;}
+}

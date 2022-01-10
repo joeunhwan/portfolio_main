@@ -1,0 +1,144 @@
+#header .main_banner{
+    height: 900px; text-align: center;
+    background-image: url("../img/sub_ourwork/sub_work_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff; padding-top: 320px;
+    text-indent: -9999px;
+}
+#header .main_banner h1{
+    font-size: 60px; line-height: 70px;
+    text-indent: 0;
+}
+#header .main_banner p{
+    font-size: 13px; line-height: 24px;
+    margin-top: 30px;
+    text-indent: 0;
+}
+
+#container h2{font-size: 36px;}
+#container .paragraph{
+    font-size: 15px; line-height: 26px;
+    color: #636363;
+}
+#container .btn_detail{
+    font-size: 17px; line-height: 26px;
+    color: #363636;
+}
+
+
+#container .ourwork .txt_wrap{
+    width: 1200px; margin: 0 auto;
+    padding: 90px 0;
+}
+#container .ourwork .txt_wrap h3{
+    font-size: 36px; line-height: 48px;
+    color: #2d2d2d;
+}
+#container .ourwork .txt_wrap p{font-size: 14px; line-height: 24px;}
+#container .ourwork .txt_wrap p.txt1{color: #636363; margin: 50px 0;}
+#container .ourwork .txt_wrap p.txt2{color: #636363;}
+
+#container .ourwork .imglist li{
+    width: 50%; height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#container .ourwork .imglist li.box1{
+    text-indent: -9999px;
+    background-image: url("../img/sub_workview/work_view01.jpg");
+}
+#container .ourwork .imglist li.txt_box{
+    line-height: 24px;
+    font-size: 15px; color: #fff;
+    padding: 5% 10% 0 5%;
+    background-image: url("../img/sub_workview/work_view_bg.jpg");
+}
+#container .ourwork .imglist li.txt_box h4{
+    font-size: 20px; line-height: 48px;
+    margin-bottom: 50px;
+}
+#container .ourwork .imglist li.txt_box .txt1{margin-bottom: 40px;}
+
+
+#container .cont_mid{
+    width: 1200px; margin: 0 auto;
+    padding: 100px 0;
+}
+#container .cont_mid p{
+    color: #636363;
+    font-size: 15px; line-height: 24px;
+}
+#container .cont_mid p.txt2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+#container .contact{
+    text-align: center; color: #fff;
+    background-image: url("../img/main/contact_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0; text-indent: -9999px;
+}
+#container .contact h2{text-indent: 0;}
+#container .contact .contact_text1{
+    font-size: 15px; text-indent: 0;
+    margin: 20px 0 50px 0;
+}
+#container .contact .btn_detail{color: #fff; font-weight: bold;}
+
+
+
+@media screen and (max-width: 1200px){
+    #header .main_banner{height: 780px;}
+    #header .main_banner h1{font-size: 45px;}
+    
+    #container h2{font-size: 30px;}
+    #container .paragraph{font-size: 90%;}
+    
+    #container .ourwork .txt_wrap{width: 90%;}
+    #container .ourwork .txt_wrap p{font-size: 13px;}
+    #container .ourwork .txt_wrap p.txt1{margin: 5% 0;}
+    
+    #container .ourwork .imglist li{
+        width: 100%; height: 720px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    #container .ourwork .imglist li.box1{
+        background-image: url("../img/sub_workview/work_view01.jpg");
+    }
+
+    
+    
+    #container .cont_mid{width: 90%;}
+    #container .cont_mid p{font-size: 13px;}
+    
+    #container .contact{padding: 100px 0;}
+    #container .contact .contact_text1{font-size: 90%;}
+}
+
+
+
+@media screen and (max-width: 640px){
+    #header .main_banner{height: 450px; padding-top: 150px;}
+    #header .main_banner h1{font-size: 30px; line-height: 35px;}
+    
+    #container .ourwork .txt_wrap{width: 87.5%;}
+    #container .ourwork .txt_wrap h3{font-size: 30px;}
+
+    #container .ourwork .imglist li{height: 500px;}
+    #container .ourwork .imglist li.txt_box{padding: 5% 5% 0 5%;}
+    #container .ourwork .imglist li.txt_box p{font-size: 80%; line-height: 24px;}
+
+    #container .cont_mid{width: 87.5%; padding: 5% 0;}
+    #container .cont_mid p{font-size: 85%;}
+
+    #container .contact{padding: 50px 0;}
+}

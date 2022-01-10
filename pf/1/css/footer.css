@@ -1,0 +1,33 @@
+span.color, p.color{color: #23c3ff;}
+span.bold{font-weight: bold;}
+
+#footer{
+    background-color: #252525;
+    color: #fff; position: relative;
+    padding: 70px 0;
+}
+#footer .wrap{width: 1200px; margin: 0 auto;}
+#footer .footer_text{
+    font-size: 13px; line-height: 24px;
+    padding-left: 260px; float: left;
+}
+#footer .footer_text .f_text2{color: #a1a1a1; margin-top: 20px;}
+#footer .sns_btn{float: right;}
+#footer .sns_btn li{float: left; margin: 0 5px;}
+#footer .sns_btn li img{width: 26px; height: 27px;}
+
+
+
+@media screen and (max-width: 1200px){
+    #footer .wrap{width: 90%;}
+    #footer .footer_text{padding-left: 10%;}
+}
+
+
+
+@media screen and (max-width: 640px){
+    #footer .wrap{width: 100%; text-align: center;}
+    #footer .footer_text{width: 100%; padding-left: 0; margin-bottom: 20px; }
+    #footer .sns_btn{float: none; width: 45%; margin: 0 auto; display: flex; justify-content: center;}
+    #footer .sns_btn li{width: 15%; margin: 0 0;}
+}

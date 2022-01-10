@@ -1,0 +1,149 @@
+#header .main_banner{
+    height: 900px; text-align: center;
+    background-image: url("../img/sub_contact/sub_contact_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff; padding-top: 320px;
+    text-indent: -9999px;
+}
+#header .main_banner h1{
+    font-size: 60px; line-height: 70px;
+    text-indent: 0;
+}
+#header .main_banner p{
+    font-size: 13px; line-height: 24px;
+    margin-top: 30px;
+    text-indent: 0;
+}
+
+#container h2{font-size: 36px;}
+#container .paragraph{
+    font-size: 15px; line-height: 26px;
+    color: #636363;
+}
+#container .btn_detail{
+    font-size: 17px; line-height: 26px;
+    color: #363636;
+}
+
+
+#container .form ul li{width: 50%; height: 750px;}
+#container .form ul li.left{
+    padding-left: 10%; padding-top: 100px;
+}
+#container .form ul li.left h3{
+    font-size: 20px; color: #2d2d2d;
+    margin-bottom: 25px;
+}
+#container .form ul li.left p{
+    font-size: 14px; color: #636363;
+    line-height: 22px;
+}
+#container .form ul li.left p.txt1{margin-bottom: 25px;}
+#container .form ul li.left p.txt2{margin-bottom: 110px;}
+#container .form ul li.left p span{color: #2d2d2d;}
+#container .form ul li.left .name, .left .phone{
+    width: 45%; height: 35px; 
+    border: 1px solid #ccc;
+    margin-right: 6px;
+}
+#container .form ul li.left .textbox{
+    width: 91%; height: 85px; border:1px solid #ccc; 
+    resize: none; margin-top: 5px;
+}
+
+#container .form ul li.left .btn_submit{
+    width: 91%; height: 40px; border: none; 
+    color:#fff; background-color:#363636;
+    cursor: pointer;
+}
+
+
+#container .cont_bg{
+    height: 470px;
+    background-image: url("../img/sub_contact/sub_contact_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#container .cont_mid{
+    width: 1200px; margin: 0 auto;
+    padding: 100px 0;
+}
+#container .cont_mid p{
+    color: #636363;
+    font-size: 15px; line-height: 24px;
+}
+#container .cont_mid h3{
+    font-size: 20px; color: #2d2d2d;
+    margin-bottom: 50px;
+}
+#container .cont_mid p.txt2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+#container .contact{
+    text-align: center; color: #fff;
+    background-image: url("../img/main/contact_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0; text-indent: -9999px;
+}
+#container .contact h2{text-indent: 0;}
+#container .contact .contact_text1{
+    font-size: 15px; text-indent: 0;
+    margin: 20px 0 50px 0;
+}
+#container .contact .btn_detail{color: #fff; font-weight: bold;}
+
+
+
+@media screen and (max-width: 1200px){
+    #header .main_banner{height: 780px;}
+    #header .main_banner h1{font-size: 45px;}
+    
+    #container h2{font-size: 30px;}
+    #container .paragraph{font-size: 90%;}
+    
+    #container .form ul li.left{padding-left: 3%;}
+    #container .form ul li.left h3{margin-bottom: 20px;}
+    #container .form ul li.left p{font-size: 13px;}
+    
+    #container .cont_mid{width: 90%;}
+    #container .cont_mid p{font-size: 13px;}
+    
+    #container .contact{padding: 100px 0;}
+    #container .contact .contact_text1{font-size: 90%;}
+}
+
+
+
+@media screen and (max-width: 640px){
+    #header .main_banner{height: 450px; padding-top: 150px;}
+    #header .main_banner h1{font-size: 30px; line-height: 35px;}
+    
+    #container .form ul li{width: 100%; height: 500px;}
+    #container .form ul li.left{height: auto; padding: 50px 0;}
+    #container .form ul li.left .left_wrap{width: 90%; margin: 0 auto;}
+    #container .form ul li.left p.txt2{margin-bottom: 80px;}
+    #container .form ul li.left .name, .left .phone{
+        width: 49.5%; margin-right: 0;
+        border: 1px solid #ccc;
+    }
+    #container .form ul li.left .name{margin-right: 1%;}
+    #container .form ul li.left .textbox{width: 100%;}
+    
+
+    #container .form ul li.left .btn_submit{width: 100%;}
+    
+    
+    #container .cont_mid{width: 87.5%; padding: 5% 0;}
+    #container .cont_mid p{font-size: 85%;}
+
+    #container .contact{padding: 50px 0;}
+}
