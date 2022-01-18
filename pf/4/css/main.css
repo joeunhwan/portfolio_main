@@ -1,0 +1,86 @@
+html,body {width:100%;  }
+html {/*overflow-y:scroll;*/ overflow-x:hidden; box-sizing:border-box;}
+*, *:before, *:after{box-sizing:inherit;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0; padding:0;}
+fieldset,img {border:0 none;  vertical-align:top; -ms-interpolation-mode: bicubic;}
+dl,ul,ol,menu,li {list-style:none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content:''; content:none;}
+button {border:0 none; background-color:transparent; cursor:pointer;}
+#wrapper{
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/bg.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+#subtext_line{
+  position: absolute;
+  top: calc(30% - 32px);
+  left: calc(50% - 52px);
+}
+#subtext_line #sub_title{
+  font-size: 2rem;
+  color: aliceblue;
+}
+#subtext_line .text_bar{
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 3px;
+  background: #42ddeb;
+  margin-top: 20px;
+}
+#text_line{
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 460px);
+}
+#title{
+  font-size: 7rem;
+  color: aliceblue;
+}
+#description{
+  position: absolute;
+  bottom: calc(30% - 11px);
+  left: calc(50% - 125px);
+}
+#description #des{
+  font-size: 1rem;
+  color: aliceblue;
+}
+#particles{
+  width: 100vw;
+  height: 100vh;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  
+  border-radius: 50%;
+  position: absolute;
+}
+.one{
+  top: 15%;
+  left: 40%;
+  z-index: 5;
+  background-color: rgb(131, 32, 131);
+  opacity: 0.4;
+}
+.two{
+  top: 30%;
+  left: 20%;
+  z-index: 5;
+  background-color: rgb(44 49 74);
+  opacity: 0.4;
+}
+.three{
+  right: 25%;
+  bottom: 26%;
+  z-index: 5;
+  background-color: rgb(127 227 227);
+  opacity: 0.4;
+}
+
