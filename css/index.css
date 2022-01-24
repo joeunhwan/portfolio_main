@@ -297,6 +297,14 @@ section div {
     background: url(../img/pf2_3.png)no-repeat;
     background-size: contain;
 }
+.tab_con .pt2 ul li:nth-child(4){
+    background: url(../img/bnr_4.png)no-repeat;
+    background-size: cover;
+}
+.tab_con .pt2 ul li:nth-child(5){
+    background: url(../img/bnr_5.png)no-repeat;
+    background-size: cover;
+}
 .tab_con .pt2 ul li a .img_box img:nth-child(1){
     background: url(../img/bnr_1.png)no-repeat;
     background-size: contain;
